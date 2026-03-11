@@ -1,0 +1,62 @@
+{
+  "node": {
+    "17bb3136705ed5f6f778ee0c125f5b8704946c6e": {
+      "workers": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+      }
+    },
+    "3f1c78f697e40bf00ab997b9b808e67475b9ae38": {
+      "workers": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+      }
+    },
+    "e62bb0f8ee8e3cc08c5ebe747ae4df698d0e34ff": {
+      "workers": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+      }
+    },
+    "f737d3ae9673de7c932b9177aa0843a043b95cf9": {
+      "workers": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+      }
+    },
+    "fc3022d149d7fa632bfb0f67675dbddb8197d564": {
+      "workers": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+      }
+    },
+    "6fea046783720d4224633f81b2cb8fbd793a9c28": {
+      "workers": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Frecord.action.ts%22%2C%5B%22releaseRecordLock%22%2C%22updateFieldResponse%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "action-browser"
+      }
+    },
+    "9869f73c7face1d2a17bcb9b1c9562335c25f778": {
+      "workers": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Frecord.action.ts%22%2C%5B%22releaseRecordLock%22%2C%22updateFieldResponse%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "8Scm5dyy/P2uMwbLBfxmi5bVNkBExtQPxu+kbK3Tjg8="
+}

@@ -1,0 +1,3 @@
+{
+  "/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page.js"
+}

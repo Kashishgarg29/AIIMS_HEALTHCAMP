@@ -1,0 +1,343 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// -------------------------------------------------------------------------
+// ENUMS
+// -------------------------------------------------------------------------
+
+enum Role {
+  HOSPITAL_ADMIN
+  EVENT_USER
+  SCHOOL_REP
+  PUBLIC
+}
+
+enum RequestStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum EventStatus {
+  ACTIVE
+  COMPLETED
+}
+
+enum StudentStatus {
+  COMPLETED
+  IN_PROGRESS
+  PENDING
+}
+
+enum FieldType {
+  TEXT
+  NUMBER
+  DROPDOWN
+  CHECKBOX
+  RADIO
+  DATE
+  FILE
+  SIGNATURE
+}
+
+// -------------------------------------------------------------------------
+// AUTHENTICATION & USERS
+// -------------------------------------------------------------------------
+
+model User {
+  id        String   @id @default(uuid())
+  email     String?  @unique
+  phone     String?  @unique
+  name      String
+  role      Role     @default(PUBLIC)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  otps       OTP[]
+  eventUsers EventUser[]
+  auditLogs  AuditLog[]
+}
+
+model OTP {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  code      String
+  expiresAt DateTime
+  isUsed    Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
+
+// -------------------------------------------------------------------------
+// CORE MODULES - SCHOOLS, REQUESTS & EVENTS
+// -------------------------------------------------------------------------
+
+model School {
+  id            String   @id @default(uuid())
+  name          String
+  address       String
+  contactPerson String
+  phone         String
+  email         String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  visitRequests VisitRequest[]
+  events        Event[]
+}
+
+model VisitRequest {
+  id              String        @id @default(uuid())
+  schoolId        String?
+  school          School?       @relation(fields: [schoolId], references: [id], onDelete: SetNull)
+  schoolName      String?
+  address         String?
+  contactPerson   String?
+  phone           String?
+  email           String?
+  preferredDate   DateTime
+  studentStrength Int
+  remarks         String?
+  status          RequestStatus @default(PENDING)
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  event Event?
+}
+
+model Event {
+  id        String      @id @default(uuid())
+  uniqueId  String      @unique @default(dbgenerated("gen_random_uuid()")) // Using gen_random_uuid for native Postgres 13+ support without external packages
+  date      DateTime
+  isLocked  Boolean     @default(false)
+  status    EventStatus @default(ACTIVE)
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+
+  visitRequestId String?       @unique
+  visitRequest   VisitRequest? @relation(fields: [visitRequestId], references: [id], onDelete: SetNull)
+
+  schoolId String
+  school   School @relation(fields: [schoolId], references: [id], onDelete: Restrict)
+
+  formTemplateId String?
+  formTemplate   FormTemplate? @relation(fields: [formTemplateId], references: [id], onDelete: SetNull)
+
+  eventUsers EventUser[]
+  students   Student[]
+  auditLogs  AuditLog[]
+
+  @@index([schoolId])
+}
+
+model EventUser {
+  id      String @id @default(uuid())
+  eventId String
+  event   Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  userId  String
+  user    User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, userId])
+}
+
+// -------------------------------------------------------------------------
+// DYNAMIC FORMS BUILDER
+// -------------------------------------------------------------------------
+
+model FormTemplate {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  events   Event[]
+  sections FormSection[]
+}
+
+model FormSection {
+  id         String       @id @default(uuid())
+  templateId String
+  template   FormTemplate @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  name       String
+  order      Int
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  fields FormField[]
+
+  @@index([templateId])
+}
+
+model FormField {
+  id         String      @id @default(uuid())
+  sectionId  String
+  section    FormSection @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  name       String
+  label      String
+  type       FieldType
+  options    Json? // For Dropdown, Checkbox, Radio, e.g., ["M", "F"]
+  isRequired Boolean     @default(false)
+  isDisabled Boolean     @default(false)
+  order      Int
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+
+  responses FieldResponse[]
+
+  @@index([sectionId])
+}
+
+// -------------------------------------------------------------------------
+// STUDENT REGISTRATION & RECORDS
+// -------------------------------------------------------------------------
+
+model Student {
+  id         String  @id @default(uuid())
+  eventId    String
+  event      Event   @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  name       String
+  class      String
+  age        Int
+  gender     String
+  optionalId String?
+  precaution String?
+
+  // Base Details Extension
+  dateOfBirth      DateTime?
+  bloodGroup       String?
+  fatherName       String?
+  motherName       String?
+  fatherOccupation String?
+  motherOccupation String?
+  address          String?
+  pincode          String?
+  mobileNumber     String?
+
+  // Past History
+  pastHistory               String?
+  pastHistoryHandler        String?
+  pastHistoryHandlerContact String?
+
+  // Implants & Meds
+  hasDentalImplant     Boolean @default(false)
+  hasBraces            Boolean @default(false)
+  hasRightEyeSpectacle Boolean @default(false)
+  hasLeftEyeSpectacle  Boolean @default(false)
+  presentComplaints    String?
+  currentMedication    String?
+
+  // Vaccination Status
+  vaccHepatitisB1 Boolean @default(false)
+  vaccHepatitisB2 Boolean @default(false)
+  vaccHepatitisB3 Boolean @default(false)
+  vaccTyphoid1    Boolean @default(false)
+  vaccTyphoid5    Boolean @default(false)
+  vaccTyphoid8    Boolean @default(false)
+  vaccTyphoid11   Boolean @default(false)
+  vaccTyphoid14   Boolean @default(false)
+  vaccDTPolio     Boolean @default(false)
+  vaccTetanus6    Boolean @default(false)
+  vaccTetanus11   Boolean @default(false)
+
+  // Conditions
+  condScratchesHead        Boolean @default(false)
+  condRubsEyes             Boolean @default(false)
+  condFrequentHeadache     Boolean @default(false)
+  condCannotSeeBoard       Boolean @default(false)
+  condPokesEars            Boolean @default(false)
+  condTeethBlackOrRotten   Boolean @default(false)
+  condBadBreath            Boolean @default(false)
+  condCracksAtMouthCorners Boolean @default(false)
+  condBreathesThroughMouth Boolean @default(false)
+  condBitesNails           Boolean @default(false)
+  condWhitePatches         Boolean @default(false)
+  condLimpingGait          Boolean @default(false)
+  condBreathlessness       Boolean @default(false)
+  condFrequentUrination    Boolean @default(false)
+  condDiarrhoea            Boolean @default(false)
+  condVomiting             Boolean @default(false)
+  condStammers             Boolean @default(false)
+  condBloodInStools        Boolean @default(false)
+  condFaintingEpisodes     Boolean @default(false)
+  condAnyOtherProblem      String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  record StudentRecord?
+
+  @@unique([name, class, eventId])
+  @@index([eventId])
+}
+
+model StudentRecord {
+  id        String        @id @default(uuid())
+  studentId String        @unique
+  student   Student       @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  status    StudentStatus @default(PENDING)
+
+  lockedById      String?
+  lockedAt        DateTime?
+  lastUpdatedById String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  responses FieldResponse[]
+}
+
+model FieldResponse {
+  id          String        @id @default(uuid())
+  recordId    String
+  record      StudentRecord @relation(fields: [recordId], references: [id], onDelete: Cascade)
+  fieldId     String
+  field       FormField     @relation(fields: [fieldId], references: [id], onDelete: Cascade)
+  value       Json
+  updatedById String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  history FieldHistory[]
+
+  @@unique([recordId, fieldId])
+}
+
+model FieldHistory {
+  id          String        @id @default(uuid())
+  responseId  String
+  response    FieldResponse @relation(fields: [responseId], references: [id], onDelete: Cascade)
+  oldValue    Json?
+  newValue    Json
+  updatedById String
+  timestamp   DateTime      @default(now())
+}
+
+// -------------------------------------------------------------------------
+// SECURITY & LOGGING
+// -------------------------------------------------------------------------
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  action     String
+  entityType String
+  entityId   String
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  eventId    String?
+  event      Event?   @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  details    Json?
+  createdAt  DateTime @default(now())
+
+  @@index([eventId])
+  @@index([userId])
+}
