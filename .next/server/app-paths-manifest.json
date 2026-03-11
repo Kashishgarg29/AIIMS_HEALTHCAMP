@@ -1,9 +1,0 @@
-{
-  "/(public)/requests/page": "app/(public)/requests/page.js",
-  "/(auth)/dashboard/event/[eventId]/page": "app/(auth)/dashboard/event/[eventId]/page.js",
-  "/(auth)/dashboard/admin/events/page": "app/(auth)/dashboard/admin/events/page.js",
-  "/(auth)/dashboard/event/page": "app/(auth)/dashboard/event/page.js",
-  "/(auth)/dashboard/admin/page": "app/(auth)/dashboard/admin/page.js",
-  "/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page.js",
-  "/(auth)/dashboard/school/page": "app/(auth)/dashboard/school/page.js"
-}
