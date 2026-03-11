@@ -2,42 +2,62 @@
   "node": {
     "17bb3136705ed5f6f778ee0c125f5b8704946c6e": {
       "workers": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/dashboard/event/[eventId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/school/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+        "app/(auth)/dashboard/event/[eventId]/page": "rsc",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc",
+        "app/(auth)/dashboard/school/page": "action-browser"
       }
     },
     "3f1c78f697e40bf00ab997b9b808e67475b9ae38": {
       "workers": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/dashboard/event/[eventId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/school/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+        "app/(auth)/dashboard/event/[eventId]/page": "rsc",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc",
+        "app/(auth)/dashboard/school/page": "action-browser"
       }
     },
     "e62bb0f8ee8e3cc08c5ebe747ae4df698d0e34ff": {
       "workers": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/dashboard/event/[eventId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/school/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+        "app/(auth)/dashboard/event/[eventId]/page": "rsc",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc",
+        "app/(auth)/dashboard/school/page": "action-browser"
       }
     },
     "f737d3ae9673de7c932b9177aa0843a043b95cf9": {
       "workers": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/dashboard/event/[eventId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/school/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+        "app/(auth)/dashboard/event/[eventId]/page": "rsc",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc",
+        "app/(auth)/dashboard/school/page": "action-browser"
       }
     },
     "fc3022d149d7fa632bfb0f67675dbddb8197d564": {
       "workers": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/dashboard/event/[eventId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/school/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fevent.action.ts%22%2C%5B%22addStudentToEvent%22%2C%22completeEvent%22%2C%22bulkAddStudents%22%2C%22updateStudentPreRegistration%22%2C%22getEventDetails%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc"
+        "app/(auth)/dashboard/event/[eventId]/page": "rsc",
+        "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "rsc",
+        "app/(auth)/dashboard/school/page": "action-browser"
       }
     },
     "6fea046783720d4224633f81b2cb8fbd793a9c28": {
@@ -55,8 +75,228 @@
       "layer": {
         "app/(auth)/dashboard/event/[eventId]/record/[studentId]/page": "action-browser"
       }
+    },
+    "722d8747d00c3f2d9b6b30252a409778b30c59f2": {
+      "workers": {
+        "app/(auth)/dashboard/school/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fschool.action.ts%22%2C%5B%22getSchoolEvents%22%2C%22preRegisterStudent%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/school/page": "rsc"
+      }
+    },
+    "aa09055bcb6ad659809b31ab86902677476e7e44": {
+      "workers": {
+        "app/(auth)/dashboard/school/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fschool.action.ts%22%2C%5B%22getSchoolEvents%22%2C%22preRegisterStudent%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/school/page": "rsc"
+      }
+    },
+    "42b8914b933f6e30c5f6a963f1ef11b721d6aa2a": {
+      "workers": {
+        "app/(public)/requests/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Frequest.action.ts%22%2C%5B%22createVisitRequest%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(public)/requests/page": "action-browser"
+      }
+    },
+    "15c58c1f971da437ec1bb866dfe0fd50a1c8d238": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "4e1ba80aaf7f4ed3b5cda5f0891d4464eef2a73f": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "5254b35f8ec1115e4ce6b3ae0e24c4c3acac7e7f": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "55e17de0b75481f7c0f8338f345d60d00132fad8": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "8ad69e21b40f8494a9f4da97cdbafe9c1bf8e5e1": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "91c5a27c23341180931779498d2379a3d289956e": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "a209c1e5c2c613fd8648f09ec868388eebf7ef7a": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "b6c55769b7d8eb1211e099a35ea3423f1f554a06": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "c283c58b83d10d71eb13954c81e848e3fed67985": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "cfd0c532418fadfeb31eac9a00372da513c52f3d": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "d0597b31d95ceea984d3eac00713a40331bd8c44": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "d15b482b09426785844ff736aa463555c640cae0": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "dd050bdea39dd35a767dadf8172462b5a2be51b5": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
+    },
+    "ee197233151457dcc6606212605bcbb85a640151": {
+      "workers": {
+        "app/(auth)/dashboard/admin/staff/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/dashboard/admin/templates/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/dashboard/admin/events/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkashishgarg%2Fdep2%202%2Fservices%2Fadmin.action.ts%22%2C%5B%22deleteEvent%22%2C%22updateEventStaff%22%2C%22removeStaff%22%2C%22createFormTemplate%22%2C%22createDirectEvent%22%2C%22addStaff%22%2C%22updateEventDate%22%2C%22getVisitRequests%22%2C%22getFormTemplates%22%2C%22getCompletedEvents%22%2C%22deleteFormTemplate%22%2C%22getActiveEvents%22%2C%22approveVisitRequest%22%2C%22getStaffUsers%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/dashboard/admin/staff/page": "rsc",
+        "app/(auth)/dashboard/admin/page": "rsc",
+        "app/(auth)/dashboard/admin/templates/page": "action-browser",
+        "app/(auth)/dashboard/admin/events/page": "rsc"
+      }
     }
   },
   "edge": {},
-  "encryptionKey": "8Scm5dyy/P2uMwbLBfxmi5bVNkBExtQPxu+kbK3Tjg8="
+  "encryptionKey": "CTWSUJqGEmxjFbyyPvckwgkPf7cxQ6CbzUbZs0kvkYk="
 }
